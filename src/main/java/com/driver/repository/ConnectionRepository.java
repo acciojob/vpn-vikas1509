@@ -6,5 +6,5 @@ import org.springframework.stereotype.Repository;
 import java.sql.Connection;
 
 @Repository
-public interface ConnectionRepository extends JpaRepository<Connection, Integer> {
+public interface ConnectionRepository extends JpaRepository<Connection,Integer> {
 }
